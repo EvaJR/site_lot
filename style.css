@@ -5,42 +5,62 @@ body,html {
   font-size: 10px;
 }
 
+/* navigation links styling */
+
 nav {
+  display: flex;
+  justify-content: center;
+  margin: 0;
   padding: 0;
   width: 100%;
+  background-color: rgba(0, 0, 255, 0.9);
+}
+
+ul {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
 }
 
 li {
-  display: inline;
+  width: 10em;
+  font-size: 1.5em;
+  outline: none;
+  text-align: center;
+  line-height: 4;
+  color: white;
+  list-style-type: none;
+}
+
+#vertaal {
+  background-color: rgba(255, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+#vertaal:hover {
+  border: 1px solid white;
 }
 
 a {
-  outline: none;
   text-decoration: none;
-  display: inline-block;
-  width: 19.5%;
-  margin-right: 0.625%;
-  text-align: center;
-  line-height: 3;
-  color: black;
-}
-
-li:last-child a {
-  margin-right: 0;
+  color: white;
 }
 
 a:link, a:visited, a:focus {
-  background: yellow;
 }
 
 a:hover {
-  background: orange;
+  position: relative;
+  bottom: 0.15em;
 }
 
 a:active {
-  background: red;
-  color: white;
+  /* border: 1px solid white; */
 }
+
+/* rosetta stone idea styling  */
 
 article {
   text-align: center;
@@ -55,6 +75,10 @@ p {
   text-align: center;
   font-size: 3em;
   color: white;
+}
+
+.over p {
+  font-size: 1.5em;
 }
 
 .translation {
@@ -77,3 +101,14 @@ p {
 .original:hover {
   background-color: rgba(0, 0, 200, 1.0);
 }
+
+/* over section styling */
+img {
+  float: left;
+}
+
+.over {
+  background-color: grey;
+  float: right;
+}
+/* footer styling */
