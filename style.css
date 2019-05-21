@@ -81,6 +81,12 @@ p {
   font-size: 1.5em;
 }
 
+.translation, .original {
+  padding: 3em;
+  margin: 5em;
+  width: 40%;
+}
+
 .translation {
   position: relative;
   bottom: 1em;
@@ -100,15 +106,5 @@ p {
 
 .original:hover {
   background-color: rgba(0, 0, 200, 1.0);
-}
-
-/* over section styling */
-img {
-  float: left;
-}
-
-.over {
-  background-color: grey;
-  float: right;
 }
 /* footer styling */
